@@ -2,6 +2,7 @@
 
 namespace ProjectPortfolio.Domain.Common
 {
+    //First class implemented in the project
     // Abstract base class for domain entities, providing common properties and behavior
     public abstract class BaseEntity
     {
