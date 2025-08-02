@@ -3,7 +3,7 @@ using ProjectPortfolio.Domain.Enums;
 
 namespace ProjectPortfolio.Domain.Entities
 {
-    public class Milestone : BaseEntity
+    public class Milestone : AggregateRoot
     {
         // Basic details
         public string Name { get; private set; } = string.Empty;

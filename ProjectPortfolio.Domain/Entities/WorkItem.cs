@@ -6,7 +6,7 @@ namespace ProjectPortfolio.Domain.Entities
     /// <summary>
     /// Represents a task or unit of work within a project.
     /// </summary>
-    public class WorkItem : BaseEntity
+    public class WorkItem : AggregateRoot
     {
         // --- Basic Info ---
 
