@@ -6,7 +6,7 @@ namespace ProjectPortfolio.Domain.Entities
     /// <summary>
     /// Represents an individual who can be assigned to projects.
     /// </summary>
-    public class TeamMember : BaseEntity
+    public class TeamMember : AggregateRoot
     {
         // Basic personal info
         public string FirstName { get; private set; } = string.Empty;
